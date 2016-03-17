@@ -1,5 +1,4 @@
 .container {
-    background-color: lightblue;
     height: 100%;
     width: 100%;
     margin: 0 auto;
@@ -9,6 +8,7 @@
     width: 100vw;
     height: 5em;
     background-color: red;
+    opacity: 0.5;
 }
 .float-container{
 	justify-content: space-around;
@@ -24,13 +24,13 @@
 
 .x2 {
     width: 90vw;
-    background-color: green;
+    background-color: lightgreen;
         margin-bottom: 1em;
 }
 
 .x3 {
     width: 90vw;
-    background-color: blue;
+    background-color: lightblue;
         margin-bottom: 1em;
 }
 @media (min-width: 480px) {

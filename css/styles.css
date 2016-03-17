@@ -1,0 +1,58 @@
+.container {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100vw;
+    height: 5em;
+    background-color: red;
+}
+.float-container{
+	justify-content: space-around;
+	padding: 1em;
+}
+.float-container-x3{
+	justify-content: space-around;
+	padding: 1em;
+}
+.float-header{
+	margin: none;
+}
+
+.x2 {
+    width: 90vw;
+    background-color: green;
+        margin-bottom: 1em;
+}
+
+.x3 {
+    width: 90vw;
+    background-color: blue;
+        margin-bottom: 1em;
+}
+@media (min-width: 480px) {
+	.float-container{
+	display: flex;
+
+}
+    .x2 {
+        width: 40vw;
+        float: left;
+    }
+
+}
+
+@media (min-width: 700px) {
+	.float-container-x3{
+	display: flex;
+
+}
+    .x3 {
+        width: 25vw;
+        float: left;
+    }
+    
+}
